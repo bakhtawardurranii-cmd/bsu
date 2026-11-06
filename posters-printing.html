@@ -1,0 +1,460 @@
+<!-- head -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-06Q3V2FLV9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-06Q3V2FLV9');
+</script>
+    
+    <style>
+.popup-overlay{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 99999;
+    padding: 20px;
+}
+
+.popup-overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+.popup-box{
+    background:#fff;
+    width:100%;
+    max-width:300px;
+    border-radius:12px;
+    padding:10px;
+    text-align:center;
+    position:relative;
+    animation:popup .35s ease;
+}
+
+@keyframes popup{
+    from{
+        transform:scale(.8);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+.close-btn{
+    position:absolute;
+    right:15px;
+    top:12px;
+    font-size:24px;
+    cursor:pointer;
+    color:#666;
+}
+
+.close-btn:hover{
+    color:#000;
+}
+
+.popup-box h2{
+    margin-bottom:15px;
+}
+
+.popup-box p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.popup-btn{
+    display:inline-block;
+    padding:12px 24px;
+    background:#007bff;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    transition:.3s;
+}
+
+.popup-btn:hover{
+    background:#0056b3;
+}
+
+@media (max-width:767px){
+.site-header.header-one .top-bar {
+    padding: 0;}    
+.site-header.header-one .top-bar .right-block {display:none;}    
+    .popup-box{
+        padding:10px;
+        max-width: 200px;
+    }
+
+    .popup-box h2{
+        font-size:22px;
+    }
+
+    .popup-box p{
+        font-size:15px;
+    }
+}
+</style>
+    <title>Posters Designing and Printing Solution Karachi - BSUPrints.Com</title>
+    <meta name="title" content="Posters Designing and Printing Solution Karachi - BSUPrints.Com">
+    <meta name="description" content="BSUPrints offers online posters printing and designing solution in Karachi. BSU is best printing press in Karachi and online business card maker."/>
+    <meta name="keywords" content="posters printing, posters designing, posters print shop, posters printing karachi, online posters printers, bsu prints, print and press karachi">
+    <link rel="canonical" href="https://bsuprints.com/posters-printing">
+</head>
+
+<!-- header -->
+<body>
+    <div class="preloader"></div><!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="site-header header-one">
+            <div class="top-bar">
+                <div class="container">
+                    <div class="social-block">
+                          <a href="https://www.facebook.com/BSUPrints/" target="_blank" rel="noopener"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/BSU_Prints/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                            <a href="https://linkedin.com/in/BSUPrints" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/bsuprints/" target="_blank" rel="noopener"><i class="fa fa-pinterest"></i></a>
+                            <a href="https://www.youtube.com/channel/UCEHOPE1xBWvvfouTUAQjZUQ" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
+                    </div><!-- /.social-block -->
+                    <div class="logo-block">
+                        <a href="./"><img src="images/logo.png" alt="BSUPrints Logo" /></a>
+                    </div><!-- /.logo-block -->
+                    <div class="right-block">
+                        <a href="mailto:bsuprints@gmail.com"><i class="fa fa-envelope"></i>bsuprints@gmail.com</a>
+                        <a href="tel:+923333181139"><i class="fa fa-phone-square"></i>+92 333 3181139</a>
+                    </div><!-- /.right-block -->
+                </div><!-- /.container -->
+            </div><!-- /.top-bar -->
+            <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+                <div class="container clearfix">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="logo-box clearfix">
+                        <button class="menu-toggler" data-target="#main-nav-bar">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div><!-- /.logo-box -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="main-navigation" id="main-nav-bar">
+                        <ul class="navigation-box">
+                            <li>
+                                <a href="./">Home</a>
+                            </li>
+                            <li><a href="about-us">About Us</a></li>
+                            <li>
+                                <a href="business-cards">Business Cards</a>
+                                <ul class="sub-menu">
+                                    <li><a href="visiting-cards">Visiting Cards</a></li>
+                                    <li><a href="transparent-cards">Transparent Cards</a></li>
+                                    <li><a href="special-shaped-cards">Special Shaped Cards</a></li>
+                                    <li><a href="double-sided-cards">Double Sided Cards</a></li>
+                                    <li><a href="vertical-cards">Vertical Cards</a></li>
+                                    <li><a href="die-cut-cards">Die Cut Cards</a></li>
+                                    <li><a href="folded-cards">Folded Cards</a></li>
+                                    <li><a href="rounded-corner-cards">Rounded Corner Cards</a></li>
+                                    <li><a href="picture-cards">Picture Cards</a></li>
+                                    <li><a href="spot-uv-cards">Spot UV Cards</a></li>
+                                </ul><!-- /.sub-menu -->
+                            </li>
+                            <li>
+                                <a href="#">Marketing Material</a>
+                                <ul class="sub-menu">
+                                    <li><a class="has-sub" href="#">Brochures</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="single-sided-brochures">Single Sided Brochures</a></li>
+                                            <li><a href="bifold-brochures">Bifold Brochures</a></li>
+                                            <li><a href="tri-fold-brochures">Tri-fold Brochures</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="catalogue">Catalogue</a></li>
+                                    <li><a class="has-sub" href="#">Flyers</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="single-sided-flyers">Single Sided Flyers</a></li>
+                                            <li><a href="double-sided-flyers">Double Sided Flyers</a></li>
+                                            <li><a href="horizontal-flyers">Horizontal Flyers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="leaflets">Leaflets</a></li>
+                                    <li><a href="pamphlets">Pamphlets</a></li>
+                                    <li><a href="posters">Posters</a></li>
+                                </ul><!-- /.sub-menu -->
+                            </li>
+                            <li>
+                                <a href="#">Panaflex</a>
+                                <ul class="sub-menu">
+                                    <li><a href="billboards">Billboards</a></li>
+                                    <li><a href="rollup-stands">Rollup Stands</a></li>
+                                    <li><a href="shop-signs">Shop Signs</a></li>
+                                    <li><a href="vinyles">Vinyles</a></li>
+                                    <li><a href="x-stands">X Stands</a></li>
+                                </ul><!-- /.sub-menu -->
+                            </li>
+                            <li>
+                                <a href="#">View All</a>
+                                <ul class="sub-menu">
+                                    <li><a href="annual-reports">Annual Reports</a></li>
+                                    <li><a class="has-sub" href="#">Booklets</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="billbooks">Billbooks</a></li>
+                                            <li><a href="carbonized-books">Carbonized Books</a></li>
+                                            <li><a href="cash-memo-booklets">Cash Memo Booklets</a></li>
+                                            <li><a href="invoice-booklets">Invoice Booklets</a></li>
+                                            <li><a href="voucher-booklets">Voucher Booklets</a></li>
+                                        </ul><!-- /.sub-menu -->
+                                    </li>
+                                    <li><a class="has-sub" href="#">Calendars</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="desk-calendars">Desk Calendars</a></li>
+                                            <li><a href="pocket-calendars">Pocket Calendars</a></li>
+                                            <li><a href="wall-calendars">Wall Calendars</a></li>
+                                        </ul><!-- /.sub-menu -->
+                                    </li>
+                                    <li><a href="certificates">Certificates</a></li>
+                                    <li><a class="has-sub" href="#">Envelopes</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="small-envelopes">Small Envelopes</a></li>
+                                            <li><a href="large-envelopes">Large Envelopes</a></li>
+                                        </ul><!-- /.sub-menu -->
+                                    </li>
+                                    <li><a href="custom-label-printing">Custom Labels</a></li>
+                                    <li><a href="packaging-and-box-printing">Packaging</a></li>
+                                    <li><a href="letterheads">Letterheads</a></li>
+                                    <li><a href="stationery">Stationery</a></li>
+                                    <li><a href="uv-dtf-stickers-printing">UV DTF Stickers</a></li>
+                                </ul><!-- /.sub-menu -->
+                            </li>
+                            <li><a href="contact-us">Contact Us</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                    <div class="right-side-box">
+                        <div class="header__social-block">
+                            <a href="https://www.facebook.com/BSUPrints/" target="_blank" rel="noopener"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/BSU_Prints/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                            <a href="https://linkedin.com/in/BSUPrints" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://pinterest.com/bsuprints/" target="_blank" rel="noopener"><i class="fa fa-pinterest"></i></a>
+                            <a href="https://www.youtube.com/channel/UCEHOPE1xBWvvfouTUAQjZUQ" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
+                        </div><!-- /.social-block -->
+                    </div><!-- /.right-side-box -->
+                </div>
+                <!-- /.container -->
+            </nav>
+        </header><!-- /.site-header header-one -->
+
+        <div class="inner-banner posters thm-black-bg text-center">
+            <div class="container">
+                <h2 class="inner-banner__title">Posters</h2><!-- /.inner-banner__title -->
+            </div><!-- /.container -->
+        </div><!-- /.inner-banner -->
+        <section class="about-two mt-5 mb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mt-3">
+                        <!-- slider -->
+                        <div id="carouselExampleIndicators" class="carousel slide animated fadeIn slower high-border-bottom-primary w-100" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-white"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-white"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-white">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-white">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4" class="bg-white">
+                            </li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="card border-0">
+                                <img src="images/posters/bsu-posters-printing-600x803.jpg" class="d-block w-100" title="Slide 01" alt="slide-01">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="card border-0">
+                                <img src="images/posters/bsu-online-posters-designs-600x783.jpg" class="d-block w-100" title="Slide 02" alt="slide-02">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="card border-0">
+                                <img src="images/posters/best-bsu-poster-designing-and-printing-600x573.jpg" class="d-block w-100" title="Slide 03" alt="slide-03">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="card border-0">
+                                <img src="images/posters/bsu-posters-printing-solution-600x549.jpg" class="d-block w-100" title="Slide 04" alt="slide-04">
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="card border-0">
+                                <img src="images/posters/poster-printing-by-bsu-600x576.jpg" class="d-block w-100" title="Slide 05" alt="slide-05">
+                              </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left fa-3x"></i>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <i class="fa fa-chevron-right fa-3x"></i>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 about-home">
+                        <div class="block-title mb-3">
+                            <h2 class="block-title__title">Posters</h2>
+                        </div>
+                        <h4 class="block-title__tag-line mb-2">Designing and Printing Solution</h4>
+                        <p class="theme-para">BSU Prints is Pakistan’s 1st online poster designer & printer in Karachi, now you can get online designing & printing services in your city. Order for the best & famous poster designs and printing press in Karachi. There are many online poster makers and poster printing companies in Karachi, but BSU deals with quality designs and quality paper as well as they offer Free Express Shipping in Karachi. BSUPrints.com is known as best offset printing press in Karachi and poster printing Karachi. We offer different kinds of posters printing including wall posters, shop posters, vehicle posters, travel posters, conference posters exhibition posters, event posters. View all the poster printing designs and order for your best one for your shop, company or organization, these posters are available in affordable rates & also enjoy free delivery in Karachi. You will find BSU as the best offset printer in Karachi.</p>
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </section>
+
+        <!-- related-services -->
+        <section class="py-5 bg-gray">
+            <div class="container">
+                <div class="sub-title">
+                    <h4 class="block-title__title">Related Services</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-5">
+                        <div class="service-one__single">
+                            <div class="service-one__image">
+                                <img src="images/marketing-material/catalogue-thumbnail.jpg" title="Catalogue" alt="Catalogue" />
+                            </div><!-- /.service-one__image -->
+                            <div class="service-one__text-block">
+                                <h3 class="service-one__title"><a href="catalogue">Catalogue</a></h3>
+                                <!-- /.service-one__text -->
+                                <a href="catalogue" class="service-one__link"><i class="fa fa-angle-right"></i></a>
+                            </div><!-- /.service-one__text-block -->
+                        </div><!-- /.service-one__single -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-md-3 mb-5">
+                        <div class="service-one__single">
+                            <div class="service-one__image">
+                                <img src="images/marketing-material/leaflets-thumbnail.jpg" title="Leaflets" alt="Leaflets" />
+                            </div><!-- /.service-one__image -->
+                            <div class="service-one__text-block">
+                                <h3 class="service-one__title"><a href="leaflets">Leaflets</a></h3>
+                                <!-- /.service-one__text -->
+                                <a href="leaflets" class="service-one__link"><i class="fa fa-angle-right"></i></a>
+                            </div><!-- /.service-one__text-block -->
+                        </div><!-- /.service-one__single -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-md-3 mb-5">
+                        <div class="service-one__single">
+                            <div class="service-one__image">
+                                <img src="images/marketing-material/pamphlets-thumbnail.jpg" title="Pamphlets" alt="Pamphlet" />
+                            </div><!-- /.service-one__image -->
+                            <div class="service-one__text-block">
+                                <h3 class="service-one__title"><a href="pamphlets">Pamphlet</a></h3>
+                                <!-- /.service-one__text -->
+                                <a href="pamphlets" class="service-one__link"><i class="fa fa-angle-right"></i></a>
+                            </div><!-- /.service-one__text-block -->
+                        </div><!-- /.service-one__single -->
+                    </div><!-- /.col-lg-4 -->
+            </div><!-- /.container -->
+        </section><!-- /.service-one -->
+ 
+<!-- footer-widgets -->
+        <footer class="site-footer">
+            <div class="main-footer">
+                <div class="container">
+                    <div class="inner-container">
+                        <div class="row mb-5">
+                            <div class="col-lg-12 text-center">
+                                <img src="images/logo.png" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="footer-widget contact-widget">
+                                    <i class="fa fa-phone-square"></i>
+                                    <h4>Phone</h4>
+                                    <p>+92 333 3181139</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="footer-widget contact-widget">
+                                    <i class="fa fa-envelope"></i>
+                                    <h4>Email</h4>
+                                    <p>bsuprints@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="footer-widget contact-widget">
+                                    <i class="fa fa-map-marker"></i>
+                                    <h4>Address</h4>
+                                    <p>Shop #5, Alvi Mansion, Outram Road, Pakistan Chowk, Karachi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-12">
+                                <div class="footer-widget">
+                                    <div class="social-block">
+                                      <a href="https://www.facebook.com/BSUPrints/" target="_blank" rel="noopener"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                                        <a href="https://twitter.com/BSU_Prints/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://linkedin.com/in/BSUPrints" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://pinterest.com/bsuprints/" target="_blank" rel="noopener"><i class="fa fa-pinterest"></i></a>
+                                        <a href="https://www.youtube.com/channel/UCEHOPE1xBWvvfouTUAQjZUQ" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
+                                    </div>
+                                </div><!-- /.footer-widget -->
+                            </div><!-- /.col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.inner-container -->
+                </div><!-- /.container -->
+            </div><!-- /.main-footer -->
+            <div class="bottom-footer text-center">
+                <div class="container">
+                    <div class="inner-container">
+                        <p>Copyright &copy; <script>
+                            document.write(new Date().getFullYear());
+                        </script> BSUPrints.Com - All rights reserved</p>
+                    </div><!-- /.inner-container -->
+                </div><!-- /.container -->
+            </div><!-- /.bottom-footer -->
+        </footer><!-- /.site-footer -->
+
+    </div><!-- /.page-wrapper -->
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- /.scroll-to-top -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>

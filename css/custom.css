@@ -1,0 +1,67 @@
+
+/* ---- BSU Prints additions ---- */
+img{max-width:100%;height:auto}
+.preloader{display:none!important}
+@media (max-width:767px){.site-header.header-one .top-bar{padding:0}.site-header.header-one .top-bar .right-block{display:none}}
+.about-home h1{font-size:35px!important;font-weight:600}
+.about-home h2.bsu-reset{font-size:24px!important;font-weight:400;margin:0;line-height:1em;color:#ee3137}
+h3.block-title__title.bsu-sub,h2.block-title__title.bsu-sub{font-size:40px;margin-bottom:17px;padding-bottom:10px;border-bottom:2px solid #5a5a5a}
+h1.inner-banner__title{font-size:clamp(28px,4.6vw,52px);line-height:1.15}
+.bsu-h5{font-size:1.25rem;font-weight:500}
+/* buttons */
+.bsu-btn{display:inline-block;background:#ee3137;color:#fff;padding:11px 22px;border:2px solid #ee3137;border-radius:3px;font-weight:700;text-decoration:none;transition:background .2s,color .2s;cursor:pointer;font-family:inherit;font-size:16px}
+.bsu-btn:hover,.bsu-btn:focus{background:#c8242a;border-color:#c8242a;color:#fff;text-decoration:none}
+.bsu-btn--ghost{background:transparent;border-color:#fff;color:#fff}
+.bsu-btn--ghost:hover,.bsu-btn--ghost:focus{background:#fff;border-color:#fff;color:#17354f}
+.bsu-btn--wa{background:#1fa855;border-color:#1fa855}
+.bsu-btn--wa:hover,.bsu-btn--wa:focus{background:#178a45;border-color:#178a45}
+/* quote bar under every banner */
+.bsu-bar{background:#17354f;color:#fff;padding:14px 0}
+.bsu-bar .container{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between}
+.bsu-bar p{margin:0;font-weight:600}
+.bsu-bar .bsu-bar__btns{display:flex;gap:10px;flex-wrap:wrap}
+.bsu-bar .bsu-btn{padding:8px 18px;font-size:15px}
+/* content blocks */
+.bsu-extras h2.bsu-h2,.bsu-block h2.bsu-h2{font-size:28px;font-weight:700;color:#17354f;margin-bottom:18px;font-family:"Titillium Web",sans-serif}
+.bsu-list{list-style:none;margin:0 0 24px;padding:0}
+.bsu-list li{position:relative;padding:6px 0 6px 28px;color:#4e4e4e;font-family:sans-serif;font-weight:500}
+.bsu-list li:before{content:"\f00c";font-family:FontAwesome;position:absolute;left:0;top:6px;color:#ee3137}
+.bsu-steps{display:flex;flex-wrap:wrap;gap:16px;margin:8px 0 34px;padding:0;list-style:none;counter-reset:s}
+.bsu-steps li{flex:1 1 200px;background:#f4f4f4;padding:18px 18px 18px 56px;position:relative;border-radius:3px;counter-increment:s;color:#4e4e4e;font-family:sans-serif;font-weight:500}
+.bsu-steps li:before{content:counter(s);position:absolute;left:16px;top:16px;width:28px;height:28px;line-height:28px;text-align:center;border-radius:50%;background:#ee3137;color:#fff;font-weight:700}
+.bsu-steps strong{display:block;color:#17354f;margin-bottom:2px}
+.bsu-faq details{border:1px solid #e1e1e1;border-radius:3px;margin-bottom:10px;background:#fff}
+.bsu-faq summary{cursor:pointer;padding:15px 48px 15px 20px;font-weight:700;color:#17354f;list-style:none;position:relative}
+.bsu-faq summary::-webkit-details-marker{display:none}
+.bsu-faq summary:after{content:"+";position:absolute;right:20px;top:11px;color:#ee3137;font-size:24px;line-height:1.2}
+.bsu-faq details[open] summary:after{content:"\2013"}
+.bsu-faq summary:focus-visible{outline:2px solid #ee3137;outline-offset:2px}
+.bsu-faq .bsu-ans{padding:0 20px 16px;color:#4e4e4e;font-family:sans-serif}
+.bsu-cta{background:#ee3137;color:#fff;padding:38px 0;text-align:center}
+.bsu-cta h2{color:#fff;font-size:30px;font-weight:700;margin:0 0 8px;font-family:"Titillium Web",sans-serif}
+.bsu-cta p{margin:0 0 18px;color:#fff;font-weight:500}
+.bsu-cta .bsu-btn{margin:4px 6px}
+.bsu-cta .bsu-btn:not(.bsu-btn--ghost):not(.bsu-btn--wa){background:#17354f;border-color:#17354f}
+.bsu-facts{background:#17354f;color:#fff;padding:26px 0}
+.bsu-facts strong{display:block;font-size:20px;font-family:"Titillium Web",sans-serif}
+.bsu-facts span{display:block;font-size:14px;opacity:.85;font-family:sans-serif}
+.bsu-facts .col-6{padding:8px 12px}
+.bsu-note{font-size:14px;color:#4e4e4e;font-family:sans-serif;margin-top:10px}
+.bsu-prose{max-width:860px}
+.bsu-prose p,.bsu-prose li{color:#4e4e4e;font-family:sans-serif;font-weight:500;line-height:1.7}
+.bsu-prose h2{font-size:28px;font-weight:700;color:#17354f;margin:34px 0 12px;font-family:"Titillium Web",sans-serif}
+/* floating contact */
+.bsu-float{position:fixed;left:16px;bottom:16px;z-index:9998;display:flex;flex-direction:column;gap:10px}
+.bsu-float a{display:flex;align-items:center;gap:8px;color:#fff;padding:11px 16px;border-radius:30px;font-weight:700;font-size:15px;box-shadow:0 3px 12px rgba(0,0,0,.28);text-decoration:none}
+.bsu-float a:hover{color:#fff;text-decoration:none;filter:brightness(.92)}
+.bsu-float i{font-size:20px}
+.bsu-float__wa{background:#1fa855}
+.bsu-float__call{background:#ee3137}
+@media (max-width:575px){.bsu-float{left:10px;bottom:10px}.bsu-float a{padding:11px 14px}.bsu-float span{display:none}}
+.bsu-footlinks{margin:10px 0 0;font-size:14px}
+.bsu-footlinks a{color:#fff;margin:0 12px;opacity:.85}
+.bsu-footlinks a:hover{opacity:1;color:#fff}
+.contact-block-one__form select,.contact-block-one__form input[type=tel]{width:100%;border:none;background:#f2f2f2;padding:0 20px;height:56px;margin-bottom:20px;font-size:15px;color:#4e4e4e}
+.contact-block-one__form .bsu-form-btns{display:flex;gap:10px;flex-wrap:wrap}
+.about-home p.block-title__tag-line,.about-home h3.block-title__tag-line{line-height:1.3}
+.service-two .block-title p.block-title__tag-line{margin-bottom:10px}

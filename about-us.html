@@ -19,8 +19,15 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Titillium+Web:wght@300;400;600;700;900&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lite.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-06Q3V2FLV9"></script>
@@ -31,114 +38,31 @@
 
   gtag('config', 'G-06Q3V2FLV9');
 </script>
-    
-    <style>
-.popup-overlay{
-    position: fixed;
-    inset: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-    z-index: 99999;
-    padding: 20px;
-}
-
-.popup-overlay.active{
-    opacity:1;
-    visibility:visible;
-}
-
-.popup-box{
-    background:#fff;
-    width:100%;
-    max-width:300px;
-    border-radius:12px;
-    padding:10px;
-    text-align:center;
-    position:relative;
-    animation:popup .35s ease;
-}
-
-@keyframes popup{
-    from{
-        transform:scale(.8);
-        opacity:0;
-    }
-    to{
-        transform:scale(1);
-        opacity:1;
-    }
-}
-
-.close-btn{
-    position:absolute;
-    right:15px;
-    top:12px;
-    font-size:24px;
-    cursor:pointer;
-    color:#666;
-}
-
-.close-btn:hover{
-    color:#000;
-}
-
-.popup-box h2{
-    margin-bottom:15px;
-}
-
-.popup-box p{
-    color:#555;
-    line-height:1.6;
-    margin-bottom:20px;
-}
-
-.popup-btn{
-    display:inline-block;
-    padding:12px 24px;
-    background:#007bff;
-    color:#fff;
-    text-decoration:none;
-    border-radius:6px;
-    transition:.3s;
-}
-
-.popup-btn:hover{
-    background:#0056b3;
-}
-
-@media (max-width:767px){
-.site-header.header-one .top-bar {
-    padding: 0;}    
-.site-header.header-one .top-bar .right-block {display:none;}    
-    .popup-box{
-        padding:10px;
-        max-width: 200px;
-    }
-
-    .popup-box h2{
-        font-size:22px;
-    }
-
-    .popup-box p{
-        font-size:15px;
-    }
-}
-</style>
-    <title>About Us - BSUPrints.Com</title>
-    <meta name="title" content="About Us - BSUPrints.Com">
-    <meta name="description" content="BSUPrints is Pakistan's 1st online eCommerce printing store. BSU offers best online designing and printing services and online business card maker Karachi."/>
-    <meta name="keywords" content="bsu prints, print shop in karachi, printing shops karachi, visiting card maker, online printers, online printing services, offset printer, online business car maker, printing services in karachi, brochure printing, calendar printing">
+    <title>About BSU Prints | Karachi Printing Press Since 1975</title>
+    <meta name="description" content="BSU Prints is Pakistan's 1st online eCommerce printing store, serving Karachi since 1975. Learn our story and get a printing quote.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="theme-color" content="#ee3137">
     <link rel="canonical" href="https://bsuprints.com/about-us">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BSU Prints">
+    <meta property="og:locale" content="en_PK">
+    <meta property="og:title" content="About BSU Prints | Karachi Printing Press Since 1975">
+    <meta property="og:description" content="BSU Prints is Pakistan's 1st online eCommerce printing store, serving Karachi since 1975. Learn our story and get a printing quote.">
+    <meta property="og:url" content="https://bsuprints.com/about-us">
+    <meta property="og:image" content="https://bsuprints.com/images/og-default.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About BSU Prints | Karachi Printing Press Since 1975">
+    <meta name="twitter:description" content="BSU Prints is Pakistan's 1st online eCommerce printing store, serving Karachi since 1975. Learn our story and get a printing quote.">
+    <meta name="twitter:image" content="https://bsuprints.com/images/og-default.jpg">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bsuprints.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://bsuprints.com/about-us"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"About BSU Prints | Karachi Printing Press Since 1975","url":"https://bsuprints.com/about-us","about":{"@id":"https://bsuprints.com/#business"}}</script>
 </head>
 
 <!-- header -->
 <body>
-    <div class="preloader"></div><!-- /.preloader -->
-    <div class="page-wrapper">
+        <div class="page-wrapper">
         <header class="site-header header-one">
             <div class="top-bar">
                 <div class="container">
@@ -150,7 +74,7 @@
                             <a href="https://www.youtube.com/channel/UCEHOPE1xBWvvfouTUAQjZUQ" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
                     </div><!-- /.social-block -->
                     <div class="logo-block">
-                        <a href="./"><img src="images/logo.png" alt="BSUPrints Logo" /></a>
+                        <a href="./"><img src="images/logo.webp" alt="BSUPrints Logo" width="100" height="100" /></a>
                     </div><!-- /.logo-block -->
                     <div class="right-block">
                         <a href="mailto:bsuprints@gmail.com"><i class="fa fa-envelope"></i>bsuprints@gmail.com</a>
@@ -217,7 +141,7 @@
                                     <li><a href="billboards">Billboards</a></li>
                                     <li><a href="rollup-stands">Rollup Stands</a></li>
                                     <li><a href="shop-signs">Shop Signs</a></li>
-                                    <li><a href="vinyles">Vinyles</a></li>
+                                    <li><a href="vinyl">Vinyl</a></li>
                                     <li><a href="x-stands">X Stands</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
@@ -274,39 +198,40 @@
 
         <div class="inner-banner about-us thm-black-bg text-center">
             <div class="container">
-                <h2 class="inner-banner__title">About Us</h2><!-- /.inner-banner__title -->
+                <h1 class="inner-banner__title">About BSU Prints</h1><!-- /.inner-banner__title -->
             </div><!-- /.container -->
         </div><!-- /.inner-banner -->
+        <div class="bsu-bar"><div class="container">
+            <p>Premium printing at fair rates &middot; Free express shipping in Karachi</p>
+            <div class="bsu-bar__btns"><a class="bsu-btn bsu-btn--wa" href="https://wa.me/923333181139?text=Hello%20BSU%20Prints%2C%20I%20would%20like%20a%20printing%20quote." target="_blank" rel="noopener">WhatsApp for a quote</a><a class="bsu-btn bsu-btn--ghost" href="tel:+923333181139">Call +92 333 3181139</a></div>
+        </div></div>
         <section class="about-two pt-3">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 about-home">
                         <div class="block-title mb-3">
-                            <h2 class="block-title__title">BSU Prints</h2>
+                            <h2 class="block-title__title">BSU Prints: Printing and Design in Karachi</h2>
                         </div>
-                        <h4 class="block-title__tag-line mb-2">#1 Creative & Professional Printing & Designing Service Provider in Karachi.</h4>
-                        <p class="theme-para">BSU Prints is Pakistan’s 1st online eCommerce printing store and online business/visiting card maker in Karachi. Previously was known as StrokeArt & PrintShopKarachi. BSUPrints offers high quality online printing services including Business Cards, Visiting Cards, Brochure Printing, Catalogue Printing, Flyer Printing, Envelopes Printing, Stickers Printing, Stationery Printing, Letterhead & Letter pads Printing, Annual Reports Printing, Appointment Cards, Bifold Brochues, Billboards, Billbooks, Books Printing, Boxes Printing, Car & Truck Wraps, Vehicle Wraps, Carbonized Books, Cash Memo Bookleets,  CD/DVD Covers, Certificates, Company Profile Printing, Desk Calendars, Die Cut Cards, Double Sided Cards, Double Sided Flyers, Eid Cards, Exhibition Printing, Folded Cards, Horizontal, Invitation Cards, Invoice Booklets, Labels Printing, Large Envelopes, Leaflets Printing, Letterheads Printing, Letterpads Printing, Menu Cards, Packages Printing, Pamphlets Printing, Panaflex, Picture Cards, Pocket Calendars, Post Cards, Posters, Presentation Folders, Rollup or X Stands, Rounded Corner Cards, Shop Signs, Single Sided Brocures, Single Sided Flyers, Small Envelopes, Special Shaped Cards, Spot UV Cards, Transparent Cards, Tri Fold Brochures, Vertical Cards, Visiting Cards, Voucher Booklets, Wall Calendars, Wallpapers & much more.</p>
-                        <h4 class="block-title__tag-line mb-2">Business</h4>
-                        <p class="theme-para">Find the easy way of printing solution at BSUPrints.com. Get the latest design, which suit with your personality, nature or business. BSU Prints in know very famously by the print & press in Karachi. Spread your business with BSU Business/Visiting Cards. Get these highly illustrated products anywhere in the world. Also get your company profile in foldable method. At BSU, there are also offering stationery printing service. These products of BSU Prints are very famous.</p>
+                        <h3 class="block-title__tag-line mb-2">#1 Creative & Professional Printing & Designing Service Provider in Karachi.</h3>
+                        <p class="theme-para">BSU Prints is Pakistan’s 1st online eCommerce printing store and online business card maker, based at Shop #5, Alvi Mansion, Outram Road, Pakistan Chowk, Karachi. We were previously known as StrokeArt and PrintShopKarachi. Today we design and print business cards, stationery, brochures, catalogues, flyers, envelopes, stickers, labels, packaging, calendars, booklets and panaflex signage for businesses across Pakistan.</p>
+                        <h3 class="block-title__tag-line mb-2">Business</h3>
+                        <p class="theme-para">Our aim is simple: premium printing at fair rates, with design help whenever you need it. Whether you want a hundred visiting cards or a full set of company stationery, we handle design, printing and delivery, with free express shipping in Karachi. Starting a new business? Ask about our Designer at Your Door Step service for your logo, business cards, letterhead, envelope and brochure. Explore <a href="business-cards">business cards</a>, <a href="custom-label-printing">custom labels</a>, <a href="packaging-and-box-printing">packaging</a> or <a href="stationery">stationery</a>, or <a href="contact-us">request a quote</a>.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-sm-6 content-margin-30">
-                        <img src="images/resources/about-2-1.jpg" title="About Image 01" alt="Awesome Image" />
+                        <img src="images/resources/about-2-1.webp" title="About Image 01" alt="Designers reviewing layouts on a laptop beside colour samples" width="270" height="448" fetchpriority="high" />
                     </div><!-- /.col-lg-3 -->
                     <div class="col-xl-3 col-lg-6 col-sm-6 content-margin-30">
-                        <img src="images/resources/about-2-2.jpg" title="About Image 02" alt="Awesome Image" />
+                        <img src="images/resources/about-2-2.webp" title="About Image 02" alt="Printed layout plans and colour swatches on a table" width="270" height="448" loading="lazy" decoding="async" />
                     </div><!-- /.col-lg-3 -->
                     <div class="col-lg-6 content-margin-30">
-                        <img src="images/resources/about-2-3.jpg" title="About Image 03" alt="Awesome Image" />
+                        <img src="images/resources/about-2-3.webp" title="About Image 03" alt="Reviewing a printed catalogue spread" width="570" height="448" loading="lazy" decoding="async" />
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
                 <div class="row">
-                    <h4 class="block-title__tag-line mb-2">History</h4>
-                    <p class="theme-para">BSU Prints was started August 14, 1975 as StorkeArt. That was StrokeArt was very famous by their amazing services, StorkeArt was serving their customers by Business Cards, Visiting Cards, Stationery, Brochures and much more services.
-                    In March 23, 2000, it was renamed as PrintShopKarachi and started service again and this time they increased their services by providing Cataloque, Company Profiles printing and other services.
-                    Finally in February 14, 2016 it was again renamed as BSUPrints, and this time as BSU Prints they even expand their services to national level. Now BSUPrints have all the online designing & printing solution and ships their product to national level.
-                    Find online visiting card maker & easy way of printing solution at BSUPrints.com. Get the latest design, which suit with your personality, nature or business. BSU Prints in know very famously by the print & press in Karachi. Spread your business with BSU Business/Visiting Cards. Get these highly illustrated products anywhere in the world. Also get your company profile in foldable method.  At BSU, there are also offering stationery printing service. These products of BSU Prints are very famous.</p>
+                    <h3 class="block-title__tag-line mb-2">History</h3>
+                    <p class="theme-para">BSU Prints started on August 14, 1975 as StrokeArt, serving customers with business cards, visiting cards, stationery and brochures. On March 23, 2000 it was renamed PrintShopKarachi and expanded into catalogues, company profiles and more. On February 14, 2016 it became BSUPrints, moving online and extending its services to a national level. Today BSUPrints offers complete online design and printing solutions and ships its products across Pakistan and worldwide.</p>
                 </div>
             </div><!-- /.container -->
         </section>
@@ -340,57 +265,6 @@
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.fun-fact-one -->
-        <section class="brand-one">
-            <div class="container">
-                <div class="brand-one__carousel owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="images/brand/brand-1-1.png" title="Brand 01" alt="Brand 01" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-2.png" title="Brand 02" alt="Brand 02" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-3.png" title="Brand 03" alt="Brand 03" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-4.png" title="Brand 04" alt="Brand 04" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-5.png" title="Brand 05" alt="Brand 05" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-1.png" title="Brand 06" alt="Brand 06" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-2.png" title="Brand 07" alt="Brand 07" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-3.png" title="Brand 08" alt="Brand 08" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-4.png" title="Brand 09" alt="Brand 09" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-5.png" title="Brand 10" alt="Brand 10" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-1.png" title="Brand 11" alt="Brand 11" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-2.png" title="Brand 12" alt="Brand 12" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-3.png" title="Brand 13" alt="Brand 13" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-4.png" title="Brand 14" alt="Brand 14" />
-                    </div><!-- /.item -->
-                    <div class="item">
-                        <img src="images/brand/brand-1-5.png" title="Brand 15" alt="Brand 15" />
-                    </div><!-- /.item -->
-                </div><!-- /.brand-one__carousel -->
-            </div><!-- /.container -->
-        </section><!-- /.brand-one -->
 
 <!-- footer-widgets -->
         <footer class="site-footer">
@@ -399,7 +273,7 @@
                     <div class="inner-container">
                         <div class="row mb-5">
                             <div class="col-lg-12 text-center">
-                                <img src="images/logo.png" />
+                                <img alt="BSU Prints logo" src="images/logo.webp" width="100" height="100" loading="lazy" decoding="async" />
                             </div>
                         </div>
                         <div class="row">
@@ -407,14 +281,14 @@
                                 <div class="footer-widget contact-widget">
                                     <i class="fa fa-phone-square"></i>
                                     <h4>Phone</h4>
-                                    <p>+92 333 3181139</p>
+                                    <p><a href="tel:+923333181139" style="color:inherit">+92 333 3181139</a></p>
                                 </div>
                             </div>
                             <div class="col-md-4 text-center">
                                 <div class="footer-widget contact-widget">
                                     <i class="fa fa-envelope"></i>
                                     <h4>Email</h4>
-                                    <p>bsuprints@gmail.com</p>
+                                    <p><a href="mailto:bsuprints@gmail.com" style="color:inherit">bsuprints@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="col-md-4 text-center">
@@ -447,6 +321,7 @@
                         <p>Copyright &copy; <script>
                             document.write(new Date().getFullYear());
                         </script> BSUPrints.Com - All rights reserved</p>
+                        <p class="bsu-footlinks"><a href="how-to-order">How to Order</a><a href="shipping-and-delivery">Shipping &amp; Delivery</a><a href="privacy-policy">Privacy Policy</a><a href="contact-us">Contact</a></p>
                     </div><!-- /.inner-container -->
                 </div><!-- /.container -->
             </div><!-- /.bottom-footer -->
@@ -455,13 +330,17 @@
     </div><!-- /.page-wrapper -->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <!-- /.scroll-to-top -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/theme.js"></script>
+    <script src="js/jquery.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/jquery.magnific-popup.min.js" defer></script>
+    <script src="js/owl.carousel.min.js" defer></script>
+    <script src="js/swiper.min.js" defer></script>
+    <script src="js/waypoints.min.js" defer></script>
+    <script src="js/jquery.counterup.min.js" defer></script>
+    <script src="js/theme.js" defer></script>
+<div class="bsu-float">
+  <a class="bsu-float__wa" href="https://wa.me/923333181139?text=Hello%20BSU%20Prints%2C%20I%20would%20like%20a%20printing%20quote." target="_blank" rel="noopener" aria-label="Chat with BSU Prints on WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+  <a class="bsu-float__call" href="tel:+923333181139" aria-label="Call BSU Prints +92 333 3181139"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+</div>
 </body>
 </html>

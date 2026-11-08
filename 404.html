@@ -22,8 +22,15 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Titillium+Web:wght@300;400;600;700;900&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lite.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-06Q3V2FLV9"></script>
@@ -34,103 +41,6 @@
 
   gtag('config', 'G-06Q3V2FLV9');
 </script>
-    
-    <style>
-.popup-overlay{
-    position: fixed;
-    inset: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-    z-index: 99999;
-    padding: 20px;
-}
-
-.popup-overlay.active{
-    opacity:1;
-    visibility:visible;
-}
-
-.popup-box{
-    background:#fff;
-    width:100%;
-    max-width:300px;
-    border-radius:12px;
-    padding:10px;
-    text-align:center;
-    position:relative;
-    animation:popup .35s ease;
-}
-
-@keyframes popup{
-    from{
-        transform:scale(.8);
-        opacity:0;
-    }
-    to{
-        transform:scale(1);
-        opacity:1;
-    }
-}
-
-.close-btn{
-    position:absolute;
-    right:15px;
-    top:12px;
-    font-size:24px;
-    cursor:pointer;
-    color:#666;
-}
-
-.close-btn:hover{
-    color:#000;
-}
-
-.popup-box h2{
-    margin-bottom:15px;
-}
-
-.popup-box p{
-    color:#555;
-    line-height:1.6;
-    margin-bottom:20px;
-}
-
-.popup-btn{
-    display:inline-block;
-    padding:12px 24px;
-    background:#007bff;
-    color:#fff;
-    text-decoration:none;
-    border-radius:6px;
-    transition:.3s;
-}
-
-.popup-btn:hover{
-    background:#0056b3;
-}
-
-@media (max-width:767px){
-.site-header.header-one .top-bar {
-    padding: 0;}    
-.site-header.header-one .top-bar .right-block {display:none;}    
-    .popup-box{
-        padding:10px;
-        max-width: 200px;
-    }
-
-    .popup-box h2{
-        font-size:22px;
-    }
-
-    .popup-box p{
-        font-size:15px;
-    }
-}
-</style>
     <title>Error 404 - Page not found - BSUPrints.Com</title>
     <style>
         .my-button {
@@ -146,8 +56,7 @@
 
 <!-- header -->
 <body>
-    <div class="preloader"></div><!-- /.preloader -->
-    <div class="page-wrapper">
+        <div class="page-wrapper">
         <header class="site-header header-one">
             <div class="top-bar">
                 <div class="container">
@@ -159,7 +68,7 @@
                             <a href="https://www.youtube.com/channel/UCEHOPE1xBWvvfouTUAQjZUQ" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
                     </div><!-- /.social-block -->
                     <div class="logo-block">
-                        <a href="./"><img src="images/logo.png" alt="BSUPrints Logo" /></a>
+                        <a href="./"><img src="images/logo.webp" alt="BSUPrints Logo" width="100" height="100" /></a>
                     </div><!-- /.logo-block -->
                     <div class="right-block">
                         <a href="mailto:bsuprints@gmail.com"><i class="fa fa-envelope"></i>bsuprints@gmail.com</a>
@@ -226,7 +135,7 @@
                                     <li><a href="billboards">Billboards</a></li>
                                     <li><a href="rollup-stands">Rollup Stands</a></li>
                                     <li><a href="shop-signs">Shop Signs</a></li>
-                                    <li><a href="vinyles">Vinyles</a></li>
+                                    <li><a href="vinyl">Vinyl</a></li>
                                     <li><a href="x-stands">X Stands</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
@@ -282,7 +191,7 @@
         </header><!-- /.site-header header-one -->
         <div class="inner-banner about-us thm-black-bg text-center">
             <div class="container">
-                <h2 class="inner-banner__title">Error 404</h2><!-- /.inner-banner__title -->
+                <h1 class="inner-banner__title">Error 404</h1><!-- /.inner-banner__title -->
             </div><!-- /.container -->
         </div><!-- /.inner-banner -->
         <div class="contact-block-one my-5">
@@ -291,6 +200,7 @@
                     <p class="block-title__tag-line">Error 404</p>
                     <h2 class="block-title__title mb-5">Page not found!</h2>
                     <a href="./" class="my-button"><i class="fa fa-home"></i> Go to Homepage</a>
+<p class="mt-4">Or browse: <a href="business-cards">Business Cards</a> &middot; <a href="custom-label-printing">Labels</a> &middot; <a href="packaging-and-box-printing">Packaging</a> &middot; <a href="contact-us">Contact us</a></p>
                 </div><!-- /.block-title -->
             </div><!-- /.container -->
         </div><!-- /.contact-block-one -->
@@ -302,7 +212,7 @@
                     <div class="inner-container">
                         <div class="row mb-5">
                             <div class="col-lg-12 text-center">
-                                <img src="images/logo.png" />
+                                <img alt="BSU Prints logo" src="images/logo.webp" width="100" height="100" fetchpriority="high" />
                             </div>
                         </div>
                         <div class="row">
@@ -310,14 +220,14 @@
                                 <div class="footer-widget contact-widget">
                                     <i class="fa fa-phone-square"></i>
                                     <h4>Phone</h4>
-                                    <p>+92 333 3181139</p>
+                                    <p><a href="tel:+923333181139" style="color:inherit">+92 333 3181139</a></p>
                                 </div>
                             </div>
                             <div class="col-md-4 text-center">
                                 <div class="footer-widget contact-widget">
                                     <i class="fa fa-envelope"></i>
                                     <h4>Email</h4>
-                                    <p>bsuprints@gmail.com</p>
+                                    <p><a href="mailto:bsuprints@gmail.com" style="color:inherit">bsuprints@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="col-md-4 text-center">
@@ -350,51 +260,25 @@
                         <p>Copyright &copy; <script>
                             document.write(new Date().getFullYear());
                         </script> BSUPrints.Com - All rights reserved</p>
+                        <p class="bsu-footlinks"><a href="how-to-order">How to Order</a><a href="shipping-and-delivery">Shipping &amp; Delivery</a><a href="privacy-policy">Privacy Policy</a><a href="contact-us">Contact</a></p>
                     </div><!-- /.inner-container -->
                 </div><!-- /.container -->
             </div><!-- /.bottom-footer -->
         </footer><!-- /.site-footer -->
 
 <!-- footer -->
-<div id="popup" class="popup-overlay">
-    <div class="popup-box">
-        <span class="close-btn">&times;</span>
-
-        <img src="images/popup.jpg" style="width: 100%;border-radius: 10px;" />
-
-    </div>
-</div>
-
-<script>
-const popup = document.getElementById("popup");
-const closeBtn = document.querySelector(".close-btn");
-
-// Show popup after 5 seconds
-setTimeout(() => {
-    popup.classList.add("active");
-}, 5000);
-
-// Close popup
-closeBtn.addEventListener("click", () => {
-    popup.classList.remove("active");
-});
-
-// Close when clicking outside the popup
-popup.addEventListener("click", (e) => {
-    if (e.target === popup) {
-        popup.classList.remove("active");
-    }
-});
-</script>
-
-    </div><!-- /.page-wrapper -->
+</div><!-- /.page-wrapper -->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <!-- /.scroll-to-top -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/theme.js"></script>
+    <script src="js/jquery.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/jquery.magnific-popup.min.js" defer></script>
+    <script src="js/owl.carousel.min.js" defer></script>
+    <script src="js/swiper.min.js" defer></script>
+    <script src="js/theme.js" defer></script>
+<div class="bsu-float">
+  <a class="bsu-float__wa" href="https://wa.me/923333181139?text=Hello%20BSU%20Prints%2C%20I%20would%20like%20a%20printing%20quote." target="_blank" rel="noopener" aria-label="Chat with BSU Prints on WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+  <a class="bsu-float__call" href="tel:+923333181139" aria-label="Call BSU Prints +92 333 3181139"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span></a>
+</div>
 </body>
 </html>

@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://bsuprints.com/sitemap.xml
